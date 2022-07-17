@@ -4,7 +4,7 @@ randomnum = random.choice(list1)
 print("Welcome to the Jiayang App, Please sign in below!")
 user = input("Please enter your JID number ")
 password = input("Please enter your password ")
-if user == ("1"):
+if user == ("1") and password == ("jiayangisthebest"):
     print("Account found. Welcome back Jiayang!")
     print("Please select an option below:")
     print("1. View your Balance")
@@ -37,7 +37,7 @@ if user == ("1"):
             print("Your password is " + password)
 
 
-elif user == ("2"):
+elif user == ("64") and password == ("qwertyuiop"):
     print("Account found. Welcome back Michael!")
     print("Please select an option below:")
     print("1. View your Balance")
@@ -71,3 +71,4 @@ elif user == ("2"):
 
 else: 
     print("Wrong Username or password!") 
+    print("Never going to give you up never going to let you down never going to run around and desert you never going to make you cry never going to say goodbye never going to say goodbye")
